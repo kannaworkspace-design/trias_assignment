@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+Tria React Assignment:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Deployment link: https://trias-assignment.onrender.com
 
-In the project directory, you can run:
+Overview
 
-### `npm start`
+This project is a simple Contact List built using React.
+It allows users to view a list of existing contacts stored in a JavaScript array, search for a contact by name, and add new contacts to the list.
+All the data is stored in a plain JavaScript array. No API or local storage is used in this version.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Setup and Run Locally:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone the repository:
 
-### `npm test`
+git clone https://github.com/kannaworkspace-design/trias_assignment.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Install dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Start the development server:
 
-### `npm run eject`
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This will start the React development environment.
+Every time you make a change in the code, the app will automatically refresh and show the updates in real time.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Assumptions:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The app uses a hardcoded JavaScript array for storing contact data.
 
-## Learn More
+No API is connected for fetching or saving data.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+No local storage or database is used.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The focus is only on demonstrating frontend functionality and React component design.
 
-### Code Splitting
+Libraries and Tools Used:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+React (Class Components)
 
-### Analyzing the Bundle Size
+JavaScript (ES6)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+CSS (for styling)
 
-### Making a Progressive Web App
+HTML5
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Design
 
-### Advanced Configuration
+The design is simple and clean.
+It has a centered container, a search bar for filtering contacts, and input fields to add new contacts.
+Basic CSS is used for styling and layout.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Folder Structure
+src/
+ ┣ components/
+ ┃ ┣ AddContact.jsx
+ ┃ ┣ ContactList.jsx
+ ┃ ┗ SearchBar.jsx
+ ┣ App.js
+ ┣ App.css
+ ┣ index.js
+ ┣ index.css
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
